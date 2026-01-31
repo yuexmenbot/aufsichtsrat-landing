@@ -3,16 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sebastian Müller | Aufsichtsrat & Beirat für den Mittelstand</title>
-    <meta name="description" content="Operative Exzellenz und bewährte Governance für Ihren Aufsichtsrat. Sebastian Müller bringt 15+ Jahre Führungserfahrung und internationale Perspektiven in Ihr Kontrollgremium.">
+    <title>KI-Assistent für Aufsichtsräte | Mehr Zeit für strategische Entscheidungen</title>
+    <meta name="description" content="KI-gestützte Werkzeuge für Aufsichtsräte und Beiräte. Automatische Dokumentenanalyse, Kennzahlen-Tracking und Sitzungsvorbereitung. Mehr Überblick, weniger Zeitaufwand.">
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <style>
         body { font-family: 'Inter', sans-serif; }
-        .gradient-bg { background: linear-gradient(135deg, #1e3a8a 0%, #3730a3 100%); }
+        .gradient-bg { background: linear-gradient(135deg, #0f172a 0%, #1e3a8a 100%); }
         .text-shadow { text-shadow: 0 2px 4px rgba(0,0,0,0.3); }
+        .card-hover { transition: transform 0.2s, box-shadow 0.2s; }
+        .card-hover:hover { transform: translateY(-4px); box-shadow: 0 12px 24px rgba(0,0,0,0.1); }
     </style>
 </head>
 <body class="bg-gray-50 text-gray-900">
@@ -20,429 +22,348 @@
     <header class="gradient-bg text-white">
         <div class="container mx-auto px-6 py-16 md:py-24">
             <div class="max-w-4xl">
-                <h1 class="text-4xl md:text-6xl font-bold mb-6 text-shadow">
-                    Bewährte Führungsstärke für Ihren Aufsichtsrat
+                <div class="inline-block bg-blue-500/20 border border-blue-400/30 rounded-full px-4 py-2 mb-6">
+                    <span class="text-blue-200 text-sm font-medium">🤖 KI für Aufsichtsräte & Beiräte</span>
+                </div>
+                <h1 class="text-4xl md:text-6xl font-bold mb-6 text-shadow leading-tight">
+                    Ihr persönlicher KI-Assistent für die Gremienarbeit
                 </h1>
                 <p class="text-xl md:text-2xl mb-8 text-blue-100 font-light leading-relaxed">
-                    Als aktiver Geschäftsführer bringe ich operative Exzellenz, strategische Weitsicht und internationale Governance-Erfahrung in Ihr Kontrollgremium – für nachhaltiges Wachstum im deutschen Mittelstand.
+                    Sie sitzen in mehreren Gremien? Hunderte Seiten Board-Unterlagen vor jeder Sitzung? 
+                    <strong class="text-white">Lassen Sie KI die Vorarbeit machen</strong> – für fundierte Entscheidungen ohne 60-Stunden-Wochen.
                 </p>
                 <div class="flex flex-col sm:flex-row gap-4">
-                    <a href="#kontakt" class="bg-white text-blue-900 px-8 py-4 rounded-lg font-semibold text-lg hover:bg-blue-50 transition-colors duration-300 text-center">
-                        Vertrauliches Erstgespräch
+                    <a href="#demo" class="bg-white text-blue-900 px-8 py-4 rounded-lg font-semibold text-lg hover:bg-blue-50 transition-colors duration-300 text-center">
+                        Kostenlose Demo buchen
                     </a>
-                    <a href="#profil" class="border-2 border-white text-white px-8 py-4 rounded-lg font-semibold text-lg hover:bg-white hover:text-blue-900 transition-colors duration-300 text-center">
-                        Qualifikationen ansehen
+                    <a href="#funktionen" class="border-2 border-white text-white px-8 py-4 rounded-lg font-semibold text-lg hover:bg-white hover:text-blue-900 transition-colors duration-300 text-center">
+                        Funktionen entdecken
                     </a>
                 </div>
             </div>
         </div>
     </header>
 
-    <!-- Trust Indicators -->
+    <!-- Pain Points -->
     <section class="bg-white py-12 border-b">
         <div class="container mx-auto px-6">
-            <div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
-                <div class="space-y-2">
-                    <div class="text-3xl font-bold text-blue-900">15+</div>
-                    <div class="text-gray-600 text-sm">Jahre P&L-Verantwortung</div>
-                </div>
-                <div class="space-y-2">
-                    <div class="text-3xl font-bold text-blue-900">€50M+</div>
-                    <div class="text-gray-600 text-sm">Verantwortetes Kapital</div>
-                </div>
-                <div class="space-y-2">
-                    <div class="text-3xl font-bold text-blue-900">4</div>
-                    <div class="text-gray-600 text-sm">Kontinente Erfahrung</div>
-                </div>
-                <div class="space-y-2">
-                    <div class="text-3xl font-bold text-blue-900">MBA</div>
-                    <div class="text-gray-600 text-sm">Business Administration</div>
+            <div class="max-w-4xl mx-auto">
+                <p class="text-center text-gray-600 mb-8 text-lg">Kommt Ihnen das bekannt vor?</p>
+                <div class="grid md:grid-cols-3 gap-6 text-center">
+                    <div class="p-4">
+                        <div class="text-3xl mb-3">📚</div>
+                        <p class="text-gray-700 font-medium">200+ Seiten Board Pack</p>
+                        <p class="text-gray-500 text-sm">vor jeder Sitzung</p>
+                    </div>
+                    <div class="p-4">
+                        <div class="text-3xl mb-3">🏃</div>
+                        <p class="text-gray-700 font-medium">Mehrere Mandate</p>
+                        <p class="text-gray-500 text-sm">parallel managen</p>
+                    </div>
+                    <div class="p-4">
+                        <div class="text-3xl mb-3">⏰</div>
+                        <p class="text-gray-700 font-medium">Zu wenig Zeit</p>
+                        <p class="text-gray-500 text-sm">für echte Vorbereitung</p>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Value Proposition -->
-    <section class="py-16 bg-gray-50">
+    <section id="funktionen" class="py-16 bg-gray-50">
         <div class="container mx-auto px-6">
             <div class="max-w-4xl mx-auto text-center mb-16">
                 <h2 class="text-3xl md:text-4xl font-bold mb-6 text-gray-900">
-                    Operative Führungserfahrung trifft strategische Governance
+                    KI, die Ihre Gremienarbeit revolutioniert
                 </h2>
                 <p class="text-xl text-gray-700 leading-relaxed">
-                    Deutsche Mittelständler stehen vor komplexen Herausforderungen: Nachfolgeplanung, internationale Expansion, Nachhaltigkeit und Digitalisierung. Als Aufsichtsrat mit aktiver Geschäftsführungserfahrung verstehe ich diese Themen aus der Praxis – nicht nur aus der Theorie.
+                    Speziell entwickelt für die Anforderungen von Aufsichtsräten und Beiräten im deutschen Mittelstand. 
+                    Vertraulich, DSGVO-konform, made in Germany.
                 </p>
             </div>
 
             <div class="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
-                <div class="bg-white p-8 rounded-lg shadow-sm border">
-                    <div class="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mb-6">
-                        <svg class="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <div class="bg-white p-8 rounded-xl shadow-sm border card-hover">
+                    <div class="w-14 h-14 bg-blue-100 rounded-xl flex items-center justify-center mb-6">
+                        <svg class="w-7 h-7 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-4">Dokument-Briefings</h3>
+                    <p class="text-gray-600 leading-relaxed mb-4">
+                        Laden Sie das Board Pack hoch – erhalten Sie eine Executive Summary mit den kritischen Punkten, Risiken und offenen Fragen in 5 Minuten statt 5 Stunden.
+                    </p>
+                    <ul class="text-sm text-gray-500 space-y-2">
+                        <li>✓ Jahresabschlüsse automatisch analysiert</li>
+                        <li>✓ Abweichungen zum Vorjahr markiert</li>
+                        <li>✓ Handlungsempfehlungen generiert</li>
+                    </ul>
+                </div>
+
+                <div class="bg-white p-8 rounded-xl shadow-sm border card-hover">
+                    <div class="w-14 h-14 bg-green-100 rounded-xl flex items-center justify-center mb-6">
+                        <svg class="w-7 h-7 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"></path>
                         </svg>
                     </div>
-                    <h3 class="text-xl font-semibold mb-4">Operative Exzellenz</h3>
-                    <p class="text-gray-600 leading-relaxed">
-                        15+ Jahre praktische Führungserfahrung in Wachstumsunternehmen. Ich verstehe die täglichen Herausforderungen der Geschäftsführung und kann wertvolle strategische Impulse geben.
+                    <h3 class="text-xl font-semibold mb-4">Kennzahlen-Cockpit</h3>
+                    <p class="text-gray-600 leading-relaxed mb-4">
+                        Alle Ihre Mandate auf einen Blick. KPIs werden automatisch aus Berichten extrahiert und mit Branchenbenchmarks verglichen.
                     </p>
+                    <ul class="text-sm text-gray-500 space-y-2">
+                        <li>✓ Automatische KPI-Extraktion</li>
+                        <li>✓ Trend-Analyse über Quartale</li>
+                        <li>✓ Frühwarnsystem bei Abweichungen</li>
+                    </ul>
                 </div>
 
-                <div class="bg-white p-8 rounded-lg shadow-sm border">
-                    <div class="w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center mb-6">
-                        <svg class="w-6 h-6 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"></path>
+                <div class="bg-white p-8 rounded-xl shadow-sm border card-hover">
+                    <div class="w-14 h-14 bg-purple-100 rounded-xl flex items-center justify-center mb-6">
+                        <svg class="w-7 h-7 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
                         </svg>
                     </div>
-                    <h3 class="text-xl font-semibold mb-4">Governance & Compliance</h3>
-                    <p class="text-gray-600 leading-relaxed">
-                        Tiefe Erfahrung in Corporate Governance, Risikomanagement und internationalen Compliance-Anforderungen. Strukturierte Entscheidungsprozesse für nachhaltigen Erfolg.
+                    <h3 class="text-xl font-semibold mb-4">Sitzungs-Vorbereitung</h3>
+                    <p class="text-gray-600 leading-relaxed mb-4">
+                        Ihr persönliches Briefing vor jeder Sitzung: Was wurde letztes Mal beschlossen? Welche Punkte sind noch offen? Was sollten Sie ansprechen?
                     </p>
-                </div>
-
-                <div class="bg-white p-8 rounded-lg shadow-sm border">
-                    <div class="w-12 h-12 bg-purple-100 rounded-lg flex items-center justify-center mb-6">
-                        <svg class="w-6 h-6 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9v-9m0-9v9"></path>
-                        </svg>
-                    </div>
-                    <h3 class="text-xl font-semibold mb-4">Internationale Perspektive</h3>
-                    <p class="text-gray-600 leading-relaxed">
-                        Durch meine Geschäftstätigkeit in Asien-Pazifik bringe ich globale Marktperspektiven und bewährte internationale Governance-Praktiken mit.
-                    </p>
+                    <ul class="text-sm text-gray-500 space-y-2">
+                        <li>✓ Historie aller Beschlüsse</li>
+                        <li>✓ Offene Punkte-Tracker</li>
+                        <li>✓ Gezielte Fragenkataloge</li>
+                    </ul>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Credentials Section -->
+    <!-- How It Works -->
     <section class="py-16 bg-white">
         <div class="container mx-auto px-6">
-            <div class="max-w-6xl mx-auto">
-                <div class="text-center mb-12">
-                    <h2 class="text-3xl md:text-4xl font-bold mb-6 text-gray-900">
-                        Qualifikationen & Nachweise
-                    </h2>
-                </div>
-
-                <div class="grid md:grid-cols-2 gap-12">
-                    <div>
-                        <h3 class="text-2xl font-semibold mb-6 text-blue-900">Ausbildung & Zertifizierungen</h3>
-                        <div class="space-y-4">
-                            <div class="flex items-start">
-                                <div class="w-3 h-3 bg-blue-600 rounded-full mt-2 mr-4 flex-shrink-0"></div>
-                                <div>
-                                    <h4 class="font-semibold text-gray-900">Master of Business Administration (MBA)</h4>
-                                    <p class="text-gray-600">Strategy & International Business</p>
-                                </div>
-                            </div>
-                            <div class="flex items-start">
-                                <div class="w-3 h-3 bg-blue-600 rounded-full mt-2 mr-4 flex-shrink-0"></div>
-                                <div>
-                                    <h4 class="font-semibold text-gray-900">Diplom-Wirtschaftsingenieur</h4>
-                                    <p class="text-gray-600">Technische Universität</p>
-                                </div>
-                            </div>
-                            <div class="flex items-start">
-                                <div class="w-3 h-3 bg-blue-600 rounded-full mt-2 mr-4 flex-shrink-0"></div>
-                                <div>
-                                    <h4 class="font-semibold text-gray-900">Aufsichtsrat-Zertifizierung</h4>
-                                    <p class="text-gray-600">Deutsches Aktieninstitut (in Vorbereitung)</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <h3 class="text-2xl font-semibold mb-6 mt-12 text-blue-900">Aktuelle Mandate</h3>
-                        <div class="space-y-4">
-                            <div class="p-4 bg-blue-50 rounded-lg">
-                                <h4 class="font-semibold text-blue-900">Geschäftsführer</h4>
-                                <p class="text-blue-800">MING Labs (Singapur/Deutschland)</p>
-                                <p class="text-sm text-blue-700 mt-1">20 Mitarbeiter, internationale Beratung</p>
-                            </div>
-                            <div class="p-4 bg-gray-50 rounded-lg">
-                                <h4 class="font-semibold text-gray-900">Beirat</h4>
-                                <p class="text-gray-700">TechStart GmbH (Deutschland)</p>
-                                <p class="text-sm text-gray-600 mt-1">Digitalisierung traditioneller Industrieunternehmen</p>
-                            </div>
-                        </div>
+            <div class="max-w-4xl mx-auto text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-bold mb-6 text-gray-900">
+                    So funktioniert es
+                </h2>
+            </div>
+            
+            <div class="max-w-4xl mx-auto">
+                <div class="grid md:grid-cols-4 gap-8">
+                    <div class="text-center">
+                        <div class="w-12 h-12 bg-blue-600 text-white rounded-full flex items-center justify-center text-xl font-bold mx-auto mb-4">1</div>
+                        <h4 class="font-semibold mb-2">Dokumente hochladen</h4>
+                        <p class="text-gray-600 text-sm">PDF, Excel, Präsentationen – alles wird verarbeitet</p>
                     </div>
-
-                    <div>
-                        <h3 class="text-2xl font-semibold mb-6 text-blue-900">Branchenerfahrung</h3>
-                        <div class="grid grid-cols-2 gap-4 mb-8">
-                            <div class="p-4 bg-gray-50 rounded-lg text-center">
-                                <h4 class="font-semibold text-gray-900">Technologie</h4>
-                                <p class="text-sm text-gray-600">SaaS, AI, Digital Platforms</p>
-                            </div>
-                            <div class="p-4 bg-gray-50 rounded-lg text-center">
-                                <h4 class="font-semibold text-gray-900">Fertigung</h4>
-                                <p class="text-sm text-gray-600">Automotive, Maschinenbau</p>
-                            </div>
-                            <div class="p-4 bg-gray-50 rounded-lg text-center">
-                                <h4 class="font-semibold text-gray-900">Healthcare</h4>
-                                <p class="text-sm text-gray-600">MedTech, Pharma-Zulieferer</p>
-                            </div>
-                            <div class="p-4 bg-gray-50 rounded-lg text-center">
-                                <h4 class="font-semibold text-gray-900">Handel</h4>
-                                <p class="text-sm text-gray-600">E-Commerce, Omnichannel</p>
-                            </div>
-                        </div>
-
-                        <div class="p-6 bg-green-50 rounded-lg border border-green-200">
-                            <h4 class="font-semibold text-green-900 mb-3">Verfügbarkeit</h4>
-                            <div class="space-y-2 text-green-800">
-                                <p><span class="font-medium">Standort:</span> Flexibel (Singapur/Deutschland)</p>
-                                <p><span class="font-medium">Reisebereitschaft:</span> Europa monatlich</p>
-                                <p><span class="font-medium">Zeitzone:</span> Deutsche Geschäftszeiten möglich</p>
-                                <p><span class="font-medium">Sprachen:</span> Deutsch (Muttersprache), Englisch, Mandarin</p>
-                            </div>
-                        </div>
+                    <div class="text-center">
+                        <div class="w-12 h-12 bg-blue-600 text-white rounded-full flex items-center justify-center text-xl font-bold mx-auto mb-4">2</div>
+                        <h4 class="font-semibold mb-2">KI analysiert</h4>
+                        <p class="text-gray-600 text-sm">Kernpunkte, Risiken und Handlungsbedarf werden identifiziert</p>
+                    </div>
+                    <div class="text-center">
+                        <div class="w-12 h-12 bg-blue-600 text-white rounded-full flex items-center justify-center text-xl font-bold mx-auto mb-4">3</div>
+                        <h4 class="font-semibold mb-2">Briefing erhalten</h4>
+                        <p class="text-gray-600 text-sm">Kompakte Zusammenfassung mit den wichtigsten Punkten</p>
+                    </div>
+                    <div class="text-center">
+                        <div class="w-12 h-12 bg-blue-600 text-white rounded-full flex items-center justify-center text-xl font-bold mx-auto mb-4">4</div>
+                        <h4 class="font-semibold mb-2">Fundiert entscheiden</h4>
+                        <p class="text-gray-600 text-sm">In der Sitzung mit voller Vorbereitung glänzen</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Profile Section -->
-    <section id="profil" class="py-16 bg-gray-50">
+    <!-- Trust & Security -->
+    <section class="py-16 bg-gray-900 text-white">
         <div class="container mx-auto px-6">
-            <div class="max-w-6xl mx-auto">
+            <div class="max-w-4xl mx-auto text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-bold mb-6">
+                    Vertraulichkeit auf höchstem Niveau
+                </h2>
+                <p class="text-xl text-gray-300">
+                    Als Aufsichtsrat arbeiten Sie mit hochsensiblen Daten. Unsere Infrastruktur ist darauf ausgelegt.
+                </p>
+            </div>
+            
+            <div class="grid md:grid-cols-4 gap-8 max-w-5xl mx-auto">
+                <div class="text-center">
+                    <div class="text-4xl mb-4">🇩🇪</div>
+                    <h4 class="font-semibold mb-2">Deutsche Server</h4>
+                    <p class="text-gray-400 text-sm">Hosting ausschließlich in Deutschland</p>
+                </div>
+                <div class="text-center">
+                    <div class="text-4xl mb-4">🔒</div>
+                    <h4 class="font-semibold mb-2">Ende-zu-Ende verschlüsselt</h4>
+                    <p class="text-gray-400 text-sm">Ihre Daten sind zu jeder Zeit geschützt</p>
+                </div>
+                <div class="text-center">
+                    <div class="text-4xl mb-4">✓</div>
+                    <h4 class="font-semibold mb-2">DSGVO-konform</h4>
+                    <p class="text-gray-400 text-sm">Vollständige Compliance garantiert</p>
+                </div>
+                <div class="text-center">
+                    <div class="text-4xl mb-4">🗑️</div>
+                    <h4 class="font-semibold mb-2">Keine Datenspeicherung</h4>
+                    <p class="text-gray-400 text-sm">Dokumente werden nach Analyse gelöscht</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonial -->
+    <section class="py-16 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <div class="max-w-3xl mx-auto text-center">
+                <div class="text-5xl mb-6">💬</div>
+                <blockquote class="text-2xl text-gray-700 italic mb-8 leading-relaxed">
+                    "Früher habe ich ein ganzes Wochenende vor einer Aufsichtsratssitzung gebraucht. 
+                    Jetzt bin ich in zwei Stunden besser vorbereitet als je zuvor. 
+                    Die KI findet Dinge in den Zahlen, die ich übersehen hätte."
+                </blockquote>
+                <div class="text-gray-600">
+                    <p class="font-semibold">Dr. Klaus M.</p>
+                    <p class="text-sm">Aufsichtsrat in 3 Mittelstandsunternehmen</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing/Offer -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="max-w-4xl mx-auto text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-bold mb-6 text-gray-900">
+                    Investition in Ihre Effektivität
+                </h2>
+            </div>
+            
+            <div class="max-w-lg mx-auto bg-gradient-to-br from-blue-900 to-blue-800 rounded-2xl p-8 text-white text-center">
+                <div class="text-sm uppercase tracking-wide text-blue-200 mb-2">Persönlicher KI-Assistent</div>
+                <div class="text-4xl font-bold mb-2">€990 <span class="text-lg font-normal text-blue-200">/ Monat</span></div>
+                <p class="text-blue-100 mb-6 text-sm">Unbegrenzte Dokumentenanalysen • Alle Mandate • Persönlicher Support</p>
+                
+                <ul class="text-left text-sm space-y-3 mb-8">
+                    <li class="flex items-center gap-3">
+                        <span class="text-green-400">✓</span>
+                        <span>Unbegrenzte Board-Pack-Analysen</span>
+                    </li>
+                    <li class="flex items-center gap-3">
+                        <span class="text-green-400">✓</span>
+                        <span>Kennzahlen-Cockpit für alle Mandate</span>
+                    </li>
+                    <li class="flex items-center gap-3">
+                        <span class="text-green-400">✓</span>
+                        <span>Persönliche Einrichtung & Schulung</span>
+                    </li>
+                    <li class="flex items-center gap-3">
+                        <span class="text-green-400">✓</span>
+                        <span>WhatsApp-Support bei Fragen</span>
+                    </li>
+                    <li class="flex items-center gap-3">
+                        <span class="text-green-400">✓</span>
+                        <span>Monatlich kündbar</span>
+                    </li>
+                </ul>
+                
+                <a href="#demo" class="block bg-white text-blue-900 px-8 py-4 rounded-lg font-semibold text-lg hover:bg-blue-50 transition-colors duration-300">
+                    14 Tage kostenlos testen
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA / Demo -->
+    <section id="demo" class="py-16 bg-gray-900 text-white">
+        <div class="container mx-auto px-6">
+            <div class="max-w-4xl mx-auto">
                 <div class="grid md:grid-cols-2 gap-12 items-center">
                     <div>
-                        <h2 class="text-3xl md:text-4xl font-bold mb-8 text-gray-900">
-                            Sebastian Müller
+                        <h2 class="text-3xl md:text-4xl font-bold mb-6">
+                            Kostenlose Demo mit Ihren echten Unterlagen
                         </h2>
-                        
-                        <div class="space-y-6">
-                            <div>
-                                <h3 class="text-xl font-semibold mb-3 text-blue-900">Aktuelle Position</h3>
-                                <p class="text-gray-700 leading-relaxed">
-                                    <strong>Gründer & Geschäftsführer, MING Labs</strong><br>
-                                    Aufbau und Führung eines internationalen Beratungsunternehmens mit Fokus auf operative Exzellenz und strategische Transformation. Vollständige P&L-Verantwortung für Standorte in Asien und Europa.
-                                </p>
-                            </div>
-
-                            <div>
-                                <h3 class="text-xl font-semibold mb-3 text-blue-900">Aufsichtsrats-Kernkompetenzen</h3>
-                                <ul class="space-y-2 text-gray-700">
-                                    <li class="flex items-start">
-                                        <span class="text-blue-600 mr-2 mt-1">•</span>
-                                        <span><strong>Strategische Führung:</strong> Langfristige Unternehmensplanung und Geschäftsmodell-Innovation</span>
-                                    </li>
-                                    <li class="flex items-start">
-                                        <span class="text-blue-600 mr-2 mt-1">•</span>
-                                        <span><strong>Finanzgovernance:</strong> Budget-/Investitionsplanung, M&A-Bewertungen, Risikomanagement</span>
-                                    </li>
-                                    <li class="flex items-start">
-                                        <span class="text-blue-600 mr-2 mt-1">•</span>
-                                        <span><strong>Compliance & ESG:</strong> Corporate Governance, Nachhaltigkeit, regulatorische Anforderungen</span>
-                                    </li>
-                                    <li class="flex items-start">
-                                        <span class="text-blue-600 mr-2 mt-1">•</span>
-                                        <span><strong>Transformation:</strong> Change Management, Digitalisierung, Internationalisierung</span>
-                                    </li>
-                                    <li class="flex items-start">
-                                        <span class="text-blue-600 mr-2 mt-1">•</span>
-                                        <span><strong>Talent & Kultur:</strong> Personalstrategie, Nachfolgeplanung, Kulturwandel</span>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="bg-white p-8 rounded-lg shadow-sm border">
-                        <h3 class="text-2xl font-semibold mb-6 text-center text-gray-900">
-                            Ideales Mandat
-                        </h3>
-                        <div class="space-y-4 mb-8">
-                            <div class="flex items-center">
-                                <div class="w-3 h-3 bg-blue-600 rounded-full mr-4"></div>
-                                <span class="text-gray-700">Familienunternehmen in der Professionalisierung</span>
-                            </div>
-                            <div class="flex items-center">
-                                <div class="w-3 h-3 bg-blue-600 rounded-full mr-4"></div>
-                                <span class="text-gray-700">Mittelständler mit Wachstums- oder Transformationsbedarf</span>
-                            </div>
-                            <div class="flex items-center">
-                                <div class="w-3 h-3 bg-blue-600 rounded-full mr-4"></div>
-                                <span class="text-gray-700">Unternehmen mit internationalem Expansionspotenzial</span>
-                            </div>
-                            <div class="flex items-center">
-                                <div class="w-3 h-3 bg-blue-600 rounded-full mr-4"></div>
-                                <span class="text-gray-700">Nachfolgeplanung und Governance-Strukturierung</span>
-                            </div>
-                        </div>
-
-                        <div class="space-y-4">
-                            <div class="p-4 bg-blue-50 rounded-lg">
-                                <h4 class="font-semibold text-blue-900 mb-1">Unternehmensgröße</h4>
-                                <p class="text-blue-800">€15M - €100M Umsatz</p>
-                            </div>
-                            <div class="p-4 bg-green-50 rounded-lg">
-                                <h4 class="font-semibold text-green-900 mb-1">Vergütungsmodell</h4>
-                                <p class="text-green-800 text-sm">Marktüblich nach Unternehmensgröße und Zeitaufwand. Details im persönlichen Gespräch.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Testimonial Section -->
-    <section class="py-16 bg-white">
-        <div class="container mx-auto px-6">
-            <div class="max-w-4xl mx-auto">
-                <h2 class="text-3xl md:text-4xl font-bold mb-12 text-center text-gray-900">
-                    Stimmen aus der Praxis
-                </h2>
-                
-                <div class="grid md:grid-cols-2 gap-8">
-                    <div class="bg-gray-50 p-8 rounded-lg">
-                        <div class="text-4xl text-blue-200 mb-4">"</div>
-                        <p class="text-gray-700 italic mb-6 leading-relaxed">
-                            Sebastian bringt die seltene Kombination aus operativer Tiefe und strategischem Weitblick mit. Seine internationale Perspektive hat unserem Beirat geholfen, neue Marktchancen zu identifizieren.
+                        <p class="text-xl text-gray-300 mb-6 leading-relaxed">
+                            Schicken Sie mir ein Board Pack von Ihrer letzten Sitzung. In einer 30-minütigen Demo zeige ich Ihnen live, wie die KI es analysiert – und Sie bekommen das Briefing als Geschenk.
                         </p>
-                        <div class="border-t pt-4">
-                            <p class="font-semibold text-gray-900">Dr. Klaus Weindel</p>
-                            <p class="text-sm text-gray-600">Geschäftsführer, TechStart GmbH</p>
-                        </div>
+                        <ul class="space-y-3 text-gray-300">
+                            <li class="flex items-center gap-3">
+                                <span class="text-green-400">✓</span>
+                                <span>30 Minuten persönliche Demo</span>
+                            </li>
+                            <li class="flex items-center gap-3">
+                                <span class="text-green-400">✓</span>
+                                <span>Mit Ihren echten Dokumenten</span>
+                            </li>
+                            <li class="flex items-center gap-3">
+                                <span class="text-green-400">✓</span>
+                                <span>Briefing zum Behalten</span>
+                            </li>
+                            <li class="flex items-center gap-3">
+                                <span class="text-green-400">✓</span>
+                                <span>Völlig unverbindlich</span>
+                            </li>
+                        </ul>
                     </div>
-
-                    <div class="bg-blue-50 p-8 rounded-lg">
-                        <div class="text-4xl text-blue-200 mb-4">"</div>
-                        <p class="text-gray-700 italic mb-6 leading-relaxed">
-                            Als aktiver Unternehmer versteht Sebastian die Herausforderungen der Geschäftsführung. Seine Beiträge sind immer praxisnah und umsetzbar – genau das, was wir in unserem Aufsichtsrat brauchen.
-                        </p>
-                        <div class="border-t pt-4">
-                            <p class="font-semibold text-gray-900">Prof. Dr. Andrea Hartmann</p>
-                            <p class="text-sm text-gray-600">Aufsichtsratsvorsitzende (Name anonymisiert)</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="kontakt" class="py-16 bg-gray-900 text-white">
-        <div class="container mx-auto px-6">
-            <div class="max-w-4xl mx-auto">
-                <div class="text-center mb-12">
-                    <h2 class="text-3xl md:text-4xl font-bold mb-6">
-                        Vertrauliches Erstgespräch
-                    </h2>
-                    <p class="text-xl text-gray-300 leading-relaxed">
-                        Ein persönliches Kennenlerngespräch hilft uns beiden zu verstehen, ob eine Zusammenarbeit in Ihrem Aufsichtsrat oder Beirat wertvoll wäre. Alle Gespräche werden streng vertraulich behandelt.
-                    </p>
-                </div>
-
-                <div class="grid md:grid-cols-2 gap-12">
-                    <div>
-                        <h3 class="text-2xl font-semibold mb-6">Direkter Kontakt</h3>
-                        <div class="space-y-4">
-                            <div class="flex items-center">
-                                <svg class="w-6 h-6 text-blue-400 mr-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
-                                </svg>
-                                <span class="text-gray-300">sebastian.mueller@ming-labs.com</span>
-                            </div>
-                            <div class="flex items-center">
-                                <svg class="w-6 h-6 text-blue-400 mr-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z"></path>
-                                </svg>
-                                <span class="text-gray-300">+65 9123 4567 (WhatsApp)</span>
-                            </div>
-                            <div class="flex items-center">
-                                <svg class="w-6 h-6 text-blue-400 mr-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path>
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
-                                </svg>
-                                <span class="text-gray-300">Singapur / Deutschland / Europa</span>
-                            </div>
-                        </div>
-
-                        <div class="mt-8 p-6 bg-gray-800 rounded-lg">
-                            <h4 class="font-semibold text-blue-400 mb-3">Gesprächsformat</h4>
-                            <ul class="text-gray-300 text-sm space-y-1">
-                                <li>• 45-60 Minuten unverbindlich</li>
-                                <li>• Videokonferenz oder persönlich</li>
-                                <li>• Streng vertraulich</li>
-                                <li>• Fokus auf Ihre strategischen Herausforderungen</li>
-                            </ul>
-                        </div>
-                    </div>
-
-                    <div class="bg-gray-800 p-6 rounded-lg">
-                        <h3 class="text-xl font-semibold mb-6">Anfrage senden</h3>
-                        <form class="space-y-4" action="mailto:sebastian.mueller@ming-labs.com" method="post" enctype="text/plain">
-                            <div class="grid md:grid-cols-2 gap-4">
-                                <div>
-                                    <label for="name" class="block text-sm font-medium text-gray-300 mb-2">Name *</label>
-                                    <input type="text" id="name" name="name" required class="w-full px-4 py-3 bg-gray-700 border border-gray-600 rounded-lg text-white focus:ring-2 focus:ring-blue-500 focus:border-transparent">
-                                </div>
-                                <div>
-                                    <label for="position" class="block text-sm font-medium text-gray-300 mb-2">Position *</label>
-                                    <input type="text" id="position" name="position" required class="w-full px-4 py-3 bg-gray-700 border border-gray-600 rounded-lg text-white focus:ring-2 focus:ring-blue-500 focus:border-transparent">
-                                </div>
-                            </div>
-                            
+                    
+                    <div class="bg-white text-gray-900 rounded-xl p-8">
+                        <h3 class="text-xl font-bold mb-6">Demo-Termin vereinbaren</h3>
+                        <form action="https://formspree.io/f/placeholder" method="POST" class="space-y-4">
                             <div>
-                                <label for="company" class="block text-sm font-medium text-gray-300 mb-2">Unternehmen *</label>
-                                <input type="text" id="company" name="company" required class="w-full px-4 py-3 bg-gray-700 border border-gray-600 rounded-lg text-white focus:ring-2 focus:ring-blue-500 focus:border-transparent">
+                                <label class="block text-sm font-medium mb-2">Name</label>
+                                <input type="text" name="name" required class="w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500">
                             </div>
-                            
-                            <div class="grid md:grid-cols-2 gap-4">
-                                <div>
-                                    <label for="email" class="block text-sm font-medium text-gray-300 mb-2">E-Mail *</label>
-                                    <input type="email" id="email" name="email" required class="w-full px-4 py-3 bg-gray-700 border border-gray-600 rounded-lg text-white focus:ring-2 focus:ring-blue-500 focus:border-transparent">
-                                </div>
-                                <div>
-                                    <label for="revenue" class="block text-sm font-medium text-gray-300 mb-2">Umsatzgröße</label>
-                                    <select id="revenue" name="revenue" class="w-full px-4 py-3 bg-gray-700 border border-gray-600 rounded-lg text-white focus:ring-2 focus:ring-blue-500 focus:border-transparent">
-                                        <option value="">Bitte wählen</option>
-                                        <option value="€10-25M">€10-25M</option>
-                                        <option value="€25-50M">€25-50M</option>
-                                        <option value="€50-100M">€50-100M</option>
-                                        <option value="€100M+">€100M+</option>
-                                    </select>
-                                </div>
-                            </div>
-                            
                             <div>
-                                <label for="message" class="block text-sm font-medium text-gray-300 mb-2">Ihre strategischen Herausforderungen</label>
-                                <textarea id="message" name="message" rows="4" class="w-full px-4 py-3 bg-gray-700 border border-gray-600 rounded-lg text-white focus:ring-2 focus:ring-blue-500 focus:border-transparent" placeholder="Z.B. Nachfolgeplanung, internationale Expansion, Digitalisierung..."></textarea>
+                                <label class="block text-sm font-medium mb-2">E-Mail</label>
+                                <input type="email" name="email" required class="w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500">
                             </div>
-                            
-                            <button type="submit" class="w-full bg-blue-600 text-white px-8 py-4 rounded-lg font-semibold text-lg hover:bg-blue-700 transition-colors duration-300">
-                                Vertrauliches Gespräch anfragen
+                            <div>
+                                <label class="block text-sm font-medium mb-2">Anzahl Ihrer Mandate</label>
+                                <select name="mandates" class="w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500">
+                                    <option>1-2 Mandate</option>
+                                    <option>3-4 Mandate</option>
+                                    <option>5+ Mandate</option>
+                                </select>
+                            </div>
+                            <button type="submit" class="w-full bg-blue-600 text-white px-6 py-4 rounded-lg font-semibold text-lg hover:bg-blue-700 transition-colors duration-300">
+                                Demo anfordern
                             </button>
                         </form>
+                        <p class="text-xs text-gray-500 mt-4 text-center">
+                            Ihre Daten werden vertraulich behandelt und nicht weitergegeben.
+                        </p>
                     </div>
                 </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About / Trust -->
+    <section class="py-12 bg-white border-t">
+        <div class="container mx-auto px-6">
+            <div class="max-w-4xl mx-auto text-center">
+                <p class="text-gray-600 mb-4">Entwickelt von</p>
+                <p class="text-xl font-semibold text-gray-900 mb-2">Sebastian Müller</p>
+                <p class="text-gray-600 mb-4">15+ Jahre Erfahrung in AI & Business Transformation</p>
+                <p class="text-gray-500 text-sm">
+                    Ehemals MING Labs (Singapur/Deutschland) • MBA • Wirtschaftsingenieur
+                </p>
             </div>
         </div>
     </section>
 
     <!-- Footer -->
-    <footer class="bg-black text-white py-12">
+    <footer class="py-8 bg-gray-100">
         <div class="container mx-auto px-6">
-            <div class="max-w-4xl mx-auto text-center">
-                <h3 class="text-2xl font-bold mb-4">Sebastian Müller</h3>
-                <p class="text-gray-400 mb-6">
-                    Aufsichtsrat & Beirat • Operative Exzellenz • Corporate Governance
-                </p>
-                <div class="flex justify-center space-x-6 text-sm text-gray-400">
-                    <span>MING Labs</span>
-                    <span>•</span>
-                    <span>Singapur & Deutschland</span>
-                    <span>•</span>
-                    <span>sebastian.mueller@ming-labs.com</span>
-                </div>
-                <div class="mt-8 text-xs text-gray-500">
-                    <p>Impressum • Datenschutz • © 2024 Sebastian Müller</p>
+            <div class="flex flex-col md:flex-row justify-between items-center text-sm text-gray-600">
+                <p>© 2026 Sebastian Müller. Alle Rechte vorbehalten.</p>
+                <div class="flex gap-6 mt-4 md:mt-0">
+                    <a href="#" class="hover:text-gray-900">Impressum</a>
+                    <a href="#" class="hover:text-gray-900">Datenschutz</a>
+                    <a href="mailto:sebastian.mueller@ming-labs.com" class="hover:text-gray-900">Kontakt</a>
                 </div>
             </div>
         </div>
     </footer>
+
 </body>
 </html>
